@@ -1,3 +1,5 @@
+1. CREATE DATABASE
+
 User
 * Register
 * Login
@@ -28,3 +30,18 @@ Profile
 * Login/out
 * Image
 * Bio
+
+
+
+2. User Register
+    1. template, form <--> view,if valid save user and redirect to login url
+
+3. User Login
+    1. form <-> view, if user with given email and passswor dexists authenticate
+
+4. Please have a button with Logout
+
+5. Profile,
+template, edit
+
+6. Post Create
