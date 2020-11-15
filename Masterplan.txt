@@ -1,0 +1,30 @@
+User
+* Register
+* Login
+	ID
+	Email
+	Password(hashed)
+	Fullname
+# Post Creating
+
+Post
+* ID
+* Title
+* Content
+* Date
+* Category
+* Author (Many2one)
+
+Tag
+* ID
+* Title
+Post many2many
+
+
+Feed
+* Navigation
+
+Profile
+* Login/out
+* Image
+* Bio
